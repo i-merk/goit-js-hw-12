@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search</title>
+    
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/izitoast/dist/css/iziToast.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/simplelightbox/dist/simple-lightbox.min.css"
+    />
+    <script type="module" crossorigin src="/vanilla-app-template/commonHelpers.js"></script>
+    <link rel="modulepreload" crossorigin href="/vanilla-app-template/assets/vendor-b11e2a50.js">
+    <link rel="stylesheet" href="/vanilla-app-template/assets/vendor-4b066c51.css">
+    <link rel="stylesheet" href="/vanilla-app-template/assets/index-ae8f3c22.css">
+  </head>
+  <body>
+    <div class="container">
+      <form class="search-form">
+        <input
+          type="text"
+          class="search-input"
+          placeholder="Search..."
+          required
+        />
+        <button type="submit">Search</button>
+      </form>
+      <div class="loader hidden">Loading images, please wait...</div>
+      <div class="gallery"></div>
+      <button class="load-more hidden">Load more</button>
+    </div>
+    
+    
+    
+  </body>
+</html>
